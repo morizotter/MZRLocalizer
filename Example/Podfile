@@ -1,4 +1,3 @@
 platform :ios, '7.0'
 pod 'MZRLocalizer', :path => '..'
 # pod 'MZRLocalizer', :git => "git@github.com:morizotter/MZRLocalizer.git", :tag => "0.0.1"
-

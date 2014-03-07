@@ -1,1 +1,1 @@
-../../../../Classes/MZRLocalizer.h
+../../MZRLocalizer/Classes/MZRLocalizer.h

@@ -2,13 +2,14 @@ PODS:
   - MZRLocalizer (0.0.1)
 
 DEPENDENCIES:
-  - MZRLocalizer (from `..`)
+  - MZRLocalizer (from `git@github.com:morizotter/MZRLocalizer.git`, tag `0.0.1`)
 
 EXTERNAL SOURCES:
   MZRLocalizer:
-    :path: ..
+    :git: git@github.com:morizotter/MZRLocalizer.git
+    :tag: 0.0.1
 
 SPEC CHECKSUMS:
-  MZRLocalizer: 41699c851d58a3bae8f5b7a76fb96946958d6096
+  MZRLocalizer: 702d9ac9b633b59b645fd72ce25c5412540e61a8
 
 COCOAPODS: 0.29.0

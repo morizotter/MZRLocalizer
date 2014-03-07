@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC2BF7BFC52E4356B2297C9E"
+               BlueprintIdentifier = "3D288CCBBD044223B9A23B70"
                BuildableName = "libPods-MZRLocalizer.a"
                BlueprintName = "Pods-MZRLocalizer"
                ReferencedContainer = "container:Pods.xcodeproj">
