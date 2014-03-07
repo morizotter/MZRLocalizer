@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50254A46A3E34E57BD71916E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA99718D1FE4D03B19B0505 /* libPods.a */; };
 		FF0BC0E218CA1A62009FF45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0BC0E118CA1A62009FF45C /* Foundation.framework */; };
 		FF0BC0E418CA1A62009FF45C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0BC0E318CA1A62009FF45C /* CoreGraphics.framework */; };
 		FF0BC0E618CA1A62009FF45C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0BC0E518CA1A62009FF45C /* UIKit.framework */; };
-		FF0BC0EC18CA1A62009FF45C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF0BC0EA18CA1A62009FF45C /* InfoPlist.strings */; };
 		FF0BC0EE18CA1A62009FF45C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BC0ED18CA1A62009FF45C /* main.m */; };
 		FF0BC0F218CA1A62009FF45C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BC0F118CA1A62009FF45C /* AppDelegate.m */; };
 		FF0BC0F518CA1A62009FF45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0BC0F318CA1A62009FF45C /* Main.storyboard */; };
@@ -19,8 +19,10 @@
 		FF0BC10118CA1A62009FF45C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0BC10018CA1A62009FF45C /* XCTest.framework */; };
 		FF0BC10218CA1A62009FF45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0BC0E118CA1A62009FF45C /* Foundation.framework */; };
 		FF0BC10318CA1A62009FF45C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0BC0E518CA1A62009FF45C /* UIKit.framework */; };
-		FF0BC10B18CA1A62009FF45C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF0BC10918CA1A62009FF45C /* InfoPlist.strings */; };
 		FF0BC10D18CA1A62009FF45C /* MZRLocalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BC10C18CA1A62009FF45C /* MZRLocalizerTests.m */; };
+		FF0BC11F18CA1E32009FF45C /* ExampleLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BC11E18CA1E32009FF45C /* ExampleLocalizer.m */; };
+		FF0BC12418CA2272009FF45C /* Colors.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF0BC12618CA2272009FF45C /* Colors.strings */; };
+		FF0BC12718CA2276009FF45C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF0BC12918CA2276009FF45C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F01119990F4463B891A29C2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BCA99718D1FE4D03B19B0505 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0BC0DE18CA1A62009FF45C /* MZRLocalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZRLocalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0BC0E118CA1A62009FF45C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF0BC0E318CA1A62009FF45C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FF0BC0E518CA1A62009FF45C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF0BC0E918CA1A62009FF45C /* MZRLocalizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MZRLocalizer-Info.plist"; sourceTree = "<group>"; };
-		FF0BC0EB18CA1A62009FF45C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF0BC0ED18CA1A62009FF45C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF0BC0EF18CA1A62009FF45C /* MZRLocalizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZRLocalizer-Prefix.pch"; sourceTree = "<group>"; };
 		FF0BC0F018CA1A62009FF45C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +54,17 @@
 		FF0BC0FF18CA1A62009FF45C /* MZRLocalizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZRLocalizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0BC10018CA1A62009FF45C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FF0BC10818CA1A62009FF45C /* MZRLocalizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MZRLocalizerTests-Info.plist"; sourceTree = "<group>"; };
-		FF0BC10A18CA1A62009FF45C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF0BC10C18CA1A62009FF45C /* MZRLocalizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZRLocalizerTests.m; sourceTree = "<group>"; };
+		FF0BC11D18CA1E32009FF45C /* ExampleLocalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLocalizer.h; sourceTree = "<group>"; };
+		FF0BC11E18CA1E32009FF45C /* ExampleLocalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleLocalizer.m; sourceTree = "<group>"; };
+		FF0BC12518CA2272009FF45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Colors.strings; sourceTree = "<group>"; };
+		FF0BC12818CA2276009FF45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF0BC12A18CA227E009FF45C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF0BC12B18CA227E009FF45C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Colors.strings; sourceTree = "<group>"; };
+		FF0BC12C18CA2286009FF45C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF0BC12D18CA2286009FF45C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Colors.strings; sourceTree = "<group>"; };
+		FF0BC12E18CA229C009FF45C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FF0BC12F18CA229C009FF45C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Colors.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 				FF0BC0E418CA1A62009FF45C /* CoreGraphics.framework in Frameworks */,
 				FF0BC0E618CA1A62009FF45C /* UIKit.framework in Frameworks */,
 				FF0BC0E218CA1A62009FF45C /* Foundation.framework in Frameworks */,
+				50254A46A3E34E57BD71916E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				FF0BC10618CA1A62009FF45C /* MZRLocalizerTests */,
 				FF0BC0E018CA1A62009FF45C /* Frameworks */,
 				FF0BC0DF18CA1A62009FF45C /* Products */,
+				7F01119990F4463B891A29C2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,7 @@
 				FF0BC0E318CA1A62009FF45C /* CoreGraphics.framework */,
 				FF0BC0E518CA1A62009FF45C /* UIKit.framework */,
 				FF0BC10018CA1A62009FF45C /* XCTest.framework */,
+				BCA99718D1FE4D03B19B0505 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +127,8 @@
 		FF0BC0E718CA1A62009FF45C /* MZRLocalizer */ = {
 			isa = PBXGroup;
 			children = (
+				FF0BC11D18CA1E32009FF45C /* ExampleLocalizer.h */,
+				FF0BC11E18CA1E32009FF45C /* ExampleLocalizer.m */,
 				FF0BC0F018CA1A62009FF45C /* AppDelegate.h */,
 				FF0BC0F118CA1A62009FF45C /* AppDelegate.m */,
 				FF0BC0F318CA1A62009FF45C /* Main.storyboard */,
@@ -127,9 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				FF0BC0E918CA1A62009FF45C /* MZRLocalizer-Info.plist */,
-				FF0BC0EA18CA1A62009FF45C /* InfoPlist.strings */,
 				FF0BC0ED18CA1A62009FF45C /* main.m */,
 				FF0BC0EF18CA1A62009FF45C /* MZRLocalizer-Prefix.pch */,
+				FF0BC12918CA2276009FF45C /* Localizable.strings */,
+				FF0BC12618CA2272009FF45C /* Colors.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				FF0BC10818CA1A62009FF45C /* MZRLocalizerTests-Info.plist */,
-				FF0BC10918CA1A62009FF45C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0BC11018CA1A62009FF45C /* Build configuration list for PBXNativeTarget "MZRLocalizer" */;
 			buildPhases = (
+				38AF915B6E2E42E7A3336B64 /* Check Pods Manifest.lock */,
 				FF0BC0DA18CA1A62009FF45C /* Sources */,
 				FF0BC0DB18CA1A62009FF45C /* Frameworks */,
 				FF0BC0DC18CA1A62009FF45C /* Resources */,
+				50F3D9D3AB084E6D818EF957 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +230,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				fr,
+				"zh-Hans",
 			);
 			mainGroup = FF0BC0D518CA1A61009FF45C;
 			productRefGroup = FF0BC0DF18CA1A62009FF45C /* Products */;
@@ -229,8 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0BC0FA18CA1A62009FF45C /* Images.xcassets in Resources */,
-				FF0BC0EC18CA1A62009FF45C /* InfoPlist.strings in Resources */,
+				FF0BC12718CA2276009FF45C /* Localizable.strings in Resources */,
 				FF0BC0F518CA1A62009FF45C /* Main.storyboard in Resources */,
+				FF0BC12418CA2272009FF45C /* Colors.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,11 +261,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0BC10B18CA1A62009FF45C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38AF915B6E2E42E7A3336B64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50F3D9D3AB084E6D818EF957 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF0BC0DA18CA1A62009FF45C /* Sources */ = {
@@ -252,6 +307,7 @@
 				FF0BC0F818CA1A62009FF45C /* ViewController.m in Sources */,
 				FF0BC0F218CA1A62009FF45C /* AppDelegate.m in Sources */,
 				FF0BC0EE18CA1A62009FF45C /* main.m in Sources */,
+				FF0BC11F18CA1E32009FF45C /* ExampleLocalizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,14 +330,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FF0BC0EA18CA1A62009FF45C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF0BC0EB18CA1A62009FF45C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		FF0BC0F318CA1A62009FF45C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,12 +338,26 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FF0BC10918CA1A62009FF45C /* InfoPlist.strings */ = {
+		FF0BC12618CA2272009FF45C /* Colors.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF0BC10A18CA1A62009FF45C /* en */,
+				FF0BC12518CA2272009FF45C /* Base */,
+				FF0BC12B18CA227E009FF45C /* ja */,
+				FF0BC12D18CA2286009FF45C /* fr */,
+				FF0BC12F18CA229C009FF45C /* zh-Hans */,
 			);
-			name = InfoPlist.strings;
+			name = Colors.strings;
+			sourceTree = "<group>";
+		};
+		FF0BC12918CA2276009FF45C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0BC12818CA2276009FF45C /* Base */,
+				FF0BC12A18CA227E009FF45C /* ja */,
+				FF0BC12C18CA2286009FF45C /* fr */,
+				FF0BC12E18CA229C009FF45C /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -375,6 +437,7 @@
 		};
 		FF0BC11118CA1A62009FF45C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F01119990F4463B891A29C2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +451,7 @@
 		};
 		FF0BC11218CA1A62009FF45C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F01119990F4463B891A29C2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +524,7 @@
 				FF0BC11218CA1A62009FF45C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF0BC11318CA1A62009FF45C /* Build configuration list for PBXNativeTarget "MZRLocalizerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +533,7 @@
 				FF0BC11518CA1A62009FF45C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

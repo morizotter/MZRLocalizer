@@ -1,0 +1,14 @@
+PODS:
+  - MZRLocalizer (0.0.1)
+
+DEPENDENCIES:
+  - MZRLocalizer (from `..`)
+
+EXTERNAL SOURCES:
+  MZRLocalizer:
+    :path: ..
+
+SPEC CHECKSUMS:
+  MZRLocalizer: 41699c851d58a3bae8f5b7a76fb96946958d6096
+
+COCOAPODS: 0.29.0

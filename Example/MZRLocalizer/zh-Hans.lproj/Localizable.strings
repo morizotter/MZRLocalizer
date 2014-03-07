@@ -1,0 +1,24 @@
+/* Localizable.strings
+  MZRLocalizer
+
+  Created by MORITA NAOKI on 2014/03/08.
+  Copyright (c) 2014年 molabo. All rights reserved. */
+
+/* No comment provided by engineer. */
+"ExampleLocalizerViewControllerChina" = "中国";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerViewControllerFrance" = "法国";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerViewControllerGermany" = "徳国";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerViewControllerJapan" = "日本";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerViewControllerTitle" = "中国话";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerViewControllerUnitedStates" = "美国";
+

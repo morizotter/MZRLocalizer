@@ -1,0 +1,27 @@
+/* Colors.strings
+  MZRLocalizer
+
+  Created by MORITA NAOKI on 2014/03/08.
+  Copyright (c) 2014年 molabo. All rights reserved. */
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorBlack" = "Black";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorBlue" = "Blue";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorOrange" = "Orange";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorRed" = "Red";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorWhite" = "White";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorYellow" = "Yellow";
+
+/* No comment provided by engineer. */
+"ExampleLocalizerColorPink" = "Pink";
+
